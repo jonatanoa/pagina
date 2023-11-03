@@ -118,6 +118,10 @@
     flex-wrap: wrap;
 }
 
+.ejemplo{
+    color: red;
+    font-size: 5rem;
+}
 .img-servicios{
     width: 20rem;
     border-radius: 8px;
