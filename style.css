@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.menu-container{
+    z-index: 1000;
+    background-color: rgb(0, 162, 255);
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+
+}
+.box-lista{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 2rem;
+}
+
+.lista{
+    margin: 1rem;
+    list-style: none;
+}
+
+.a-listas{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    margin: 1rem;
+    color: gold;
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: white;
+    float: right;
+    line-height: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* nosotros */
+
+.container-nosotros{
+    height: 37rem;
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-nosotros{
+    width: 15rem;
+    margin: 1rem;
+    border-radius: 5px;
+}
+.box-txt-nosotros{
+    text-align: center;
+}
+.subtitulo{
+    margin: 1rem 0px;
+}
+
+.trabajos{
+    width: 100%;
+}
+.img-trabajos{
+    width: 100%;
+}
+.footer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10rem;
+    background-color: rgb(255, 136, 0);
+    padding: 2rem;
+}
+
+.titulo-footer{
+    margin: 10px 0px;
+}
+.contactos{
+    list-style: none;
+}
+.a-contacto{
+    text-decoration: none;
+    color: white;
+}
+
+.container-servicios{
+    width: 100%;
+    height: auto;
+    background-color: rgb(223, 218, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-servicios{
+    width: 20rem;
+    border-radius: 8px;
+}
+
+.card{
+    margin: 2rem;
+}
+
+.titulo-servicios{
+    margin: 1rem 0px;
+}
+
+.p-servicios{
+    margin: 0px 0px 1rem 0px;
+}
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    background-image: url(robert-lukeman-_RBcxo9AU-U-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.form-header {
+    backdrop-filter: blur(7.1px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* background-color: #f6f7f8; */
+    border: 1px solid #626263b9;
+    border-radius: 20px;
+
+    width: 80%;
+    padding: 50px;
+}
+  
+  .form-header h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  /* ------------- Formulario ------------- */
+  
+  .formulario {
+    backdrop-filter: blur(7.1px);
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .form-row input[type="text"],
+  .form-row input[type="email"] {
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+  }
+  
+  .form-row label {
+    margin-bottom: 3px;
+    text-align: initial;
+  }
+
+  .form-row textarea {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+  
+  
+    background-color: #bdbdbd;
+    border: 0;
+    border-radius: 6px;
+  
+  
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 7px;
+    resize: none;
+  
+  
+    width: 100%;
+  }
+
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+  .btn{
+    flex-direction: row;
+  }
+
+  .alertas{
+    color: red;
+    font-size: 1rem;
+  }
+
+
+
+/* media queries */
+@media(max-width: 768px){
+    .menu-container{
+        background-color: rgb(255 93 93);
+    }
+    .checkbtn{
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+    .box-lista{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        backdrop-filter: blur(7.1px);
+        top: 16px;
+        left: 100%;
+        transition: all ease 0.5s;
+    }
+
+    .a-listas{
+        font-size: 2rem;
+        text-shadow: 3px 4px 3px rgb(255 255 255 / 49%);
+        color: black;
+    }
+
+    #check:checked ~ ul{
+        left: -2rem;
+    }
+    #check:checked ~ .checkbtn{
+        color: gold;
+    }
+
+    .container-nosotros{
+        flex-direction: column;
+        background: #000046;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .formulario{
+        width: 100%;
+        padding: 10px !important;
+    }
+}

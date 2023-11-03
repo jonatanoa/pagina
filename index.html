@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="container">
+        <nav class="menu-container">
+            <div class="icon">
+                <i class="fa-solid fa-music"></i>
+            </div>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <ul class="box-lista">
+                <li class="lista"><a href="#nosotros" class="a-listas">Inicio</a></li>
+                <li class="lista"><a href="#nosotros" class="a-listas">Acerca de mi</a></li>
+                <li class="lista"><a href="#trabajos" class="a-listas">Trabajos</a></li>
+                <li class="lista"><a href="#servicios" class="a-listas">Servicios</a></li>
+                <li class="lista"><a href="#footer" class="a-listas">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container-main">
+        <section id="nosotros" class="container-nosotros">
+            <div class="box-txt-nosotros">
+                <h2 class="titulo-nosotros">Acerca de mi</h2>
+                <p class="subtitulo">Bienvenidos a mi pagina</p>
+                <p class="descripcion-nosotros">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Sapiente necessitatibus consequatur <br> provident voluptatibus, maxime quidem id  <br>minus veniam placeat vel nulla adipisci sunt repellat <br> impedit dicta, ab dolor. Eveniet, itaque.</p>
+            </div>
+            <img class="img-nosotros" src="descarga.jpeg" alt="">
+        </section>
+        <section id="trabajos" class="trabajos">
+            <img class="img-trabajos" src="1 (2).JPG" alt="">
+        </section>
+        <section id="servicios" class="container-servicios">
+            <div class="card">
+                <img class="img-servicios" src="1 (2).JPG" alt="">
+                <div class="txt-servicios">
+                    <h2 class="titulo-servicios">Recursos gratuitos</h2>
+                    <p class="p-servicios">Lorem ipsum dolor <br>sit amet consectetur
+                        adipisicing elit. <br>Aperiam, rem molestiae
+                        accusamus <br>dolores excepturi <br>
+                        repellendus recusandae</p>
+                    <a href="#" class="a-servicios">saber mas</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-servicios" src="1 (2).JPG" alt="">
+                <div class="txt-servicios">
+                    <h2 class="titulo-servicios">Recursos gratuitos</h2>
+                    <p class="p-servicios">Lorem ipsum dolor <br>sit amet consectetur
+                        adipisicing elit. <br>Aperiam, rem molestiae
+                        accusamus <br>dolores excepturi <br>
+                        repellendus recusandae</p>
+                    <a  href="#" class="a-servicios">saber mas</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-servicios" src="1 (2).JPG" alt="">
+                <div class="txt-servicios">
+                    <h2 class="titulo-servicios">Recursos gratuitos</h2>
+                    <p class="p-servicios">Lorem ipsum dolor <br>sit amet consectetur
+                        adipisicing elit. <br>Aperiam, rem molestiae
+                        accusamus <br>dolores excepturi <br>
+                        repellendus recusandae</p>
+                    <a  href="#" class="a-servicios">saber mas</a>
+                </div>
+            </div>
+            
+        </section>
+        <section class="container-form">
+            <div class="form-header">
+                <h1>Escribeme</h1>
+                <p><em>¡Envíame tu consulta!</em></p>
+        
+                <form action="" method="get" class="formulario" id="form"> 
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" placeholder="Escriba su nombre" />
+                    </div> 
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email"  placeholder="pepe@gmail.com" required>
+                    </div> 
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Escriba su consulta"></textarea>
+                    </div> 
+                    <div class="form-row btn">
+                        <button>Enviar</button>
+                    </div>
+                    <p class="alertas" id="alertas"></p>
+                </form>
+          </div>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+        <h2 class="titulo-footer">Contacto</h2>
+        <ul class="contactos">
+            <li class="contacto"><a href="https://www.instagram.com/dibujarte_sonson/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="a-contacto">Instagram</a></li>
+            <li class="contacto"><a href="#" class="a-contacto">Tiktok</a></li>
+            <li class="contacto"><a href="#" class="a-contacto">Youtube</a></li>
+        </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
